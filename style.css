@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(img/Desktop.png) no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+  text-align: center;
+  color: white;
+}
+.download h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.download a{
+    font-size: 20px;
+    color: red;
+    background-color: greenyellow;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
